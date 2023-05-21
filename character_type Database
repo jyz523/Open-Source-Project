@@ -1,0 +1,6 @@
+INSERT INTO character_type (type_id, type_name, health_points)
+VALUES
+(1, 'Warrior', 15),
+(2, 'Archer', 20),
+(3, 'Mage', 10),
+(4, 'Assassin', 25);
