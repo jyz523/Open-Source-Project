@@ -1,8 +1,11 @@
 Open Source Project
 Contribution: 410855497 made the foundation of the code(html, js, css)
-              410850233 fix the unneeded code in JScript
-              410855364 help setup the Character Database, Shield Database, Armor Database
-              410850076 help setup the Armor Database, changing html file into final.php file, 
-                        fixing the display of the web, adding all the <?php?> function in the php file
+              410850233 fix the unneeded code in impl.js
+              410855364 setup the character_type Database, armor and shield Database, 
+                        fixing the display of the web
+              410850076 changing html file into final.php file,fixing the display of the web, 
+                        adding all the <?php?> function in the php file, making the final version of final.php file
+                        creating get_health_points.php, creating get_health_points_by_level.php
+                        
               
-DATE of UPDATING README 05/19
+DATE of UPDATING README 05/21
