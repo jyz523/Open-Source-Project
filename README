@@ -3,8 +3,8 @@ Contribution: 410855497 made the foundation of the code(html, js, css)
               410850233 fix the unneeded code in impl.js
               410855364 setup the character_type Database, armor and shield Database, 
                         fixing the display of the web
-              410850076 changing html file into final.php file,fixing the display of the web, 
+              410850076 changing html file into main.php file,fixing the display of the web, 
                         creating get_health_points.php, creating get_health_points_by_level.php
-                        adding all the <?php?> function in the php file, making the final version of final.php file
+                        adding all the <?php?> function in the php file, making the final version of main.php file
               
-DATE of UPDATING README 05/21
+DATE of UPDATING README 05/22
