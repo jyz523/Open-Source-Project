@@ -404,7 +404,7 @@ function refreshPage() {
 </div>
 <br>
 
-<!-- Set let and right side of table -->
+<!-- Set left and right side of table -->
 <head>
   <style>
     .containe {
