@@ -160,7 +160,7 @@
     var originalMaxHP = currentMaxHP; // Set the original value of MaxHP
     maxHPInput.value = originalMaxHP;
   }
-  // Add more conditions for other armor types if needed
+          
 }
 
 
@@ -168,10 +168,10 @@ function UpdateAC() {
   var equippedArmor = document.getElementById("equippedArmor").value;
   var equippedShield = document.getElementById("equippedShield").value;
 
-  // Your existing code for updating the Armor Class (AC) based on the equipped armor and shield
-  // ...
-
-  // Assuming you have a function called "UpdateACValue" that updates the AC value on the website
+  
+  
+  
+  
   UpdateACValue(updatedAC);
 }
 
