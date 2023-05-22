@@ -399,7 +399,7 @@ function refreshPage() {
   <button class="btn btn-success" onclick="SaveData()">Save Data</button>
   <button class="btn btn-info" onclick="LoadCharacter()">Load Data</button>
   <br><br>
-<button class="btn btn-primary" onclick="refreshPage()">Refresh</button>
+<button class="btn btn-primary" onclick="refreshPage()">Refresh Page</button>
 
 </div>
 <br>
