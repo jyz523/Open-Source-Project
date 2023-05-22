@@ -1,6 +1,6 @@
 Open Source Project
 Contribution: 410855497 made the foundation of the code(html, js, css)
-              410850233 fix the unneeded code in impl.js
+              410850233 remove the unneeded code in impl.js
               410855364 setup the character_type Database, armor and shield Database, 
                         fixing the display of the web
               410850076 changing html file into main.php file,fixing the display of the web, 
