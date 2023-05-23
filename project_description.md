@@ -51,19 +51,18 @@ Functionality:
 。Users can reset the data for the entire web page by clicking on a dedicated "Refresh Page" button, facilitating a fresh start or the ability to make changes as needed.
 。This functionality implemented using HTML (main.php, line 402), JavaScript(main.php, line 310) allows users to clear any modifications and return to the initial state of the character management web page.
 。Technologies used: HTML, JavaScript.
-。Software Architecture:
 
-
+Software Architecture:
 The software architecture of the TTRPG character management web page will involve the following components:
 
 1. Front-end:
-HTML, CSS, and JavaScript will be used for creating the user interface of the web page.
-JavaScript will handle user interactions and dynamic updates of character information.
+。HTML, CSS, and JavaScript will be used for creating the user interface of the web page.
+。JavaScript will handle user interactions and dynamic updates of character information.
 
 2. Back-end:
-PHP will be used to handle server-side interactions and retrieve data from the database.
-A database (MySQL) will store character types, armor and shield options, health points, levels, and ability scores.
+。PHP will be used to handle server-side interactions and retrieve data from the database.
+。A database (MySQL) will store character types, armor and shield options, health points, levels, and ability scores.
 
 3. Database:
-The database will store the necessary information for character types, armor and shield options, health points, levels, and ability scores.
-PHP scripts will handle database queries and retrieval of data for the web page.
+。The database will store the necessary information for character types, armor and shield options, health points, levels, and ability scores.
+。PHP scripts will handle database queries and retrieval of data for the web page.
