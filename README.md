@@ -7,8 +7,8 @@ The web page will provide users with the ability to select character types, choo
 410850076   
 fixing final.html file into main.php file, fixing the display of the web. 
 creating get_health_points.php, creating get_health_points_by_level.php. 
-adding all the PHP function/JavaScript code in main.php file. 
-creating/fixing the final version of main.php file, help with ppt file. 
+adding all the PHP function/JavaScript code in main.php file.   
+creating/fixing the final version of main.php file, help with ppt file.   
 410855364    
 setup the character_type Database, turn armor and shield into mysql Database.  
 fixing the display of the web, help fixing the final version of main.php file. 
