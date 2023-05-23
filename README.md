@@ -12,9 +12,9 @@ creating/fixing the final version of main.php file, help with ppt file.
 410855364    
 setup the character_type Database, turn armor and shield into mysql Database.  
 fixing the display of the web, help fixing the final version of main.php file. 
-made the ppt file. 
+made the ppt file.   
 410850233. 
-remove the unneeded code in impl.js, help with ppt file. 
+remove the unneeded code in impl.js, help with ppt file.   
 410855497   
 made the foundation code for the project(final.html, impl.js, impl.css). 
 Setup armor and shield Database in google form. 
