@@ -4,7 +4,7 @@ Open Source Project.
 The goal of this project is to create a functioning web page for managing and displaying characters for Tabletop Role-Playing Games (TTRPGs). 
 The web page will provide users with the ability to select character types, choose armor and shield options, set and modify health points, manage levels, update ability scores, and view corresponding modifiers.  
 
-**Contrabution** 
+**Contrabution:**    
 410850076   
 fixing final.html file into main.php file, fixing the display of the web  
 creating get_health_points.php, creating get_health_points_by_level.php  
