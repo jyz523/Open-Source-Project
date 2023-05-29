@@ -1,0 +1,29 @@
+1.cd /etc/apache/site-avaliable/
+	//locate where conf files are//
+
+2.sudo nano (filename+.com).conf
+	//edit conf file//
+
+3.type those below in conf flie 
+<VirtualHost *:80>
+	ServerAdmin admin@(file name).com
+	ServerName (file name).com
+	ServerAlias www.(file name).com
+	DocumentRoot /var/www/(file name)
+	ErorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+<Location />
+	AuthType Basic
+	AuthName “Restricted Access”
+	AuthuserFile /etc/apache2/.htpasswd
+	Require valid-user
+</location>
+</VirtualHost>
+
+4.write out&save
+
+5.sudo htpasswd -c /etc/apache/.htpasswd (username)
+ //Create a user’username and password//
+
+6.sudo systemctl restart apache2
+ //restart website//
