@@ -4,7 +4,7 @@
 2.sudo nano (filename+.com).conf
 	//edit conf file//
 
-3.type those below in conf flie 
+3.//type those below in conf flie //
 <VirtualHost *:80>
 	ServerAdmin admin@(file name).com
 	ServerName (file name).com
@@ -20,7 +20,7 @@
 </location>
 </VirtualHost>
 
-4.write out&save
+4.//write out&save//
 
 5.sudo htpasswd -c /etc/apache/.htpasswd (username)
  //Create a user’username and password//
