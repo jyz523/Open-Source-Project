@@ -1,15 +1,18 @@
-1.cd /etc/apache/site-avaliable/
-	//locate where conf files are//
+<!-- locate to your apache2 files -->
+cd /etc/apache2/site-avaliable/
 
-2.sudo nano (filename+.com).conf
-	//edit conf file//
+<!-- find your conf file -->
+ls
 
-3.//type those below in conf flie //
+<!-- edit conf file -->
+sudo nano (filename).com.conf
+
+<!-- type these below in conf flie -->
 <VirtualHost *:80>
-	ServerAdmin admin@(file name).com
-	ServerName (file name).com
+	ServerAdmin admin(admin name)@(filename).com
+	ServerName (filename).com
 	ServerAlias www.(file name).com
-	DocumentRoot /var/www/(file name)
+	DocumentRoot /var/www/(filename)
 	ErorLog ${APACHE_LOG_DIR}/error.log
 	CustomLog ${APACHE_LOG_DIR}/access.log combined
 <Location />
@@ -20,10 +23,20 @@
 </location>
 </VirtualHost>
 
-4.//write out&save//
+<!-- write out&save -->
+Save the changes by pressing Ctrl + O,then press Enter to confirm the filename, and exit Nano by pressing Ctrl + X
 
-5.sudo htpasswd -c /etc/apache/.htpasswd (username)
- //Create a user’username and password//
+<!-- creating a symbolic link to the sites-enabled directory -->
+sudo ln -s /etc/apache2/sites-available/(filename).com.conf /etc/apache2/sites-enabled/
 
-6.sudo systemctl restart apache2
- //restart website//
+<!-- restart apache2 -->
+sudo systemctl restart apache2
+
+<!-- Create a user’username and password -->
+sudo htpasswd -c /etc/apache/.htpasswd (username)
+
+<!-- ERROR if dont have '.htpasswd' file -->
+sudo apt-get install apache2-utils
+
+<!-- restart apache2 -->
+sudo systemctl restart apache2
