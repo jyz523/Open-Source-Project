@@ -16,6 +16,7 @@ fixing the display of the web, help fixing the final version of main.php file.
 made the ppt file.   
 410850233  
 remove the unneeded code in impl.js, help with ppt file  
+create Apache2 read file login system
 410855497   
 made the foundation code for the project(final.html, impl.js, impl.css)   
 Setup armor and shield Database in google form  
@@ -23,4 +24,4 @@ Setup armor and shield Database in google form
 410855398, 410850258, 410850175   
 
 
-**DATE of UPDATING README 05/22**
+**DATE of UPDATING README 05/30**
