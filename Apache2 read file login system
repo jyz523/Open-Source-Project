@@ -1,13 +1,18 @@
 <!-- locate to your apache2 files -->
+(Open the configuration file of your website. 
+the configuration file is located in the /etc/apache2/sites-available/)
+command:
 cd /etc/apache2/site-avaliable/
 
-<!-- find your conf file -->
-ls
-
 <!-- edit conf file -->
+(Open the website's configuration file using a text editor like nano)
+command:
 sudo nano (filename).com.conf
 
 <!-- type these below in conf flie -->
+(modify the website's configuration file to add a section called <Location>.
+This section allows us to define specific configuration directives for a particular URL location.)
+code:
 <VirtualHost *:80>
 	ServerAdmin admin(admin name)@(filename).com
 	ServerName (filename).com
@@ -33,6 +38,8 @@ sudo ln -s /etc/apache2/sites-available/(filename).com.conf /etc/apache2/sites-e
 sudo systemctl restart apache2
 
 <!-- Create a user’username and password -->
+(Create a username and password for authentication.)
+command:
 sudo htpasswd -c /etc/apache/.htpasswd (username)
 
 <!-- ERROR if dont have '.htpasswd' file -->
