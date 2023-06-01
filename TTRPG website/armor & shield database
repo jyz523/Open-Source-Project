@@ -1,0 +1,44 @@
+-- Create the table
+CREATE TABLE armor (
+  id INT PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  type VARCHAR(20) NOT NULL
+);
+
+-- Insert data for light armor
+INSERT INTO armor (id, name, type)
+VALUES 
+(1, 'Padded', 'Light Armor'),
+(2, 'Leather', 'Light Armor'),
+(3, 'Studded Leather', 'Light Armor');
+
+-- Insert data for medium armor
+INSERT INTO armor (id, name, type)
+VALUES 
+(4, 'Hide', 'Medium Armor'),
+(5, 'Chain Shirt', 'Medium Armor'),
+(6, 'Scale Mail', 'Medium Armor'),
+(7, 'Breastplate', 'Medium Armor'),
+(8, 'Half Plate', 'Medium Armor');
+
+-- Insert data for heavy armor
+INSERT INTO armor (id, name, type)
+VALUES 
+(9, 'Ring Mail', 'Heavy Armor'),
+(10, 'Chain Mail', 'Heavy Armor'),
+(11, 'Splint', 'Heavy Armor'),
+(12, 'Plate', 'Heavy Armor');
+(13, 'None');
+
+
+-- Create the table for shields
+CREATE TABLE shield (
+  id INT PRIMARY KEY,
+  name VARCHAR(50) NOT NULL
+);
+
+-- Insert data for shields
+INSERT INTO shield (id, name)
+VALUES 
+(1, 'None'),
+(2, 'Shield');
