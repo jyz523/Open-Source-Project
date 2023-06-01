@@ -1,10 +1,9 @@
 <?php
     // Database connection parameters
-    $host = "IP Address or localhost";
-    $username = "<input>";
-    $password = "<input>";
+    $host = "192.168.64.3";
+    $username = "test";
+    $password = "test12345";
     $database = "signup";
-
 
     // Create a database connection
     $conn = mysqli_connect($host, $username, $password, $database);
@@ -20,14 +19,16 @@
         $email = $_POST["email"];
         $password = $_POST["password"];
 
-        // TODO: Perform validation on the form data
-        // You can check if the fields are empty, validate email format, etc.
-
-        // Insert the user information into the database
         $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$password')";
 
         if (mysqli_query($conn, $sql)) {
-            echo "Account created successfully!";
+            // Display pop-up message
+            echo '<script>alert("Account created successfully!");</script>';
+            
+            // Redirect back to the specified URL
+            echo '<script>window.location.href = "http://192.168.64.3/final_project/signup&login/";</script>';
+            
+            exit(); // Stop executing the rest of the PHP code
         } else {
             echo "Error: " . $sql . "<br>" . mysqli_error($conn);
         }
@@ -36,4 +37,3 @@
     // Close the database connection
     mysqli_close($conn);
 ?>
-
