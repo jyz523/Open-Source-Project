@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="index.css">
+    <title>Sign Up and Log In</title>
+</head>
+<body>
+    <h1>Welcome to TTTRPG!</h1>
+    <div>
+    <h2>Sign Up</h2>
+    <form method="POST" action="signup.php">
+        <label for="username">Username:</label><br>
+        <input type="text" name="username" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" required><br><br>
+
+        <b>
+        <input type="submit" value="Sign Up">
+        </b>
+    </form>
+
+    <h2>Log In</h2>
+    <form method="POST" action="login.php">
+        <label for="loginUsername">Username/Email:</label><br>
+        <input type="text" name="loginUsername" required><br><br>
+
+        <label for="loginPassword">Password:</label><br>
+        <input type="password" name="loginPassword" required><br><br>
+        <b>
+        <input type="submit" value="Log In">
+        </b>
+    </form>
+    </div>
+</body>
+</html>
