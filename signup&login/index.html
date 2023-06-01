@@ -5,6 +5,8 @@
     <style>
         body {
             background-image: url("back.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
             font-family: Noto Sans, Noto, sans-serif;
             border: 1px hidden;
             margin-left: 0;
@@ -13,12 +15,13 @@
             max-width: 425px;
             padding: 0 20px;
         }
+
         h1 {
             color: lime;
             font-style: italic;
         }
         h2 {
-            background-color: lightblue;
+            background-color: transparent;
             color: darkorange;
             text-align: left;
             font-style: italic;
@@ -26,15 +29,17 @@
             margin-right: -20px;
             padding: 10px;
         }
+
         div {
-            background-color: lightblue;
+            background-color: transparent;
             margin-left: 0px;
             margin-left: -10px;
             margin-right: -10px;
             padding: 20px;
         }
+
         form {
-            background-color: lightblue;
+            background-color: transparent;
             text-align: left;
             margin-left: -20px;
             margin-right: -20px;
@@ -42,9 +47,14 @@
         }
 
         b {
-            background-color: lightblue;
+            background-color: transparent;
             text-align: left;
         }
+
+        form label {
+            color: white;
+        }
+
     </style>
 </head>
 <body>
@@ -75,6 +85,10 @@
             <b>
                 <input type="submit" value="Log In">
             </b>
+        </form>
+        <br>
+        <form action="http://192.168.64.3/final_project/forget%20password/Forget%20Password_feature.php">
+            <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Forgot Password</button>
         </form>
     </div>
 </body>
