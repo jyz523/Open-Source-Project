@@ -25,7 +25,7 @@
         $sql = "SELECT * FROM users WHERE (username = '$loginUsername' OR email = '$loginUsername')";
 
         // Redirect to another website
-        header("Location:<html of the actual TTRPG website>");
+        header("Location:<html of the main.php in TTRPG website folder>");
         exit; // Ensure that the script stops executing after the redirect
     }
 ?>
