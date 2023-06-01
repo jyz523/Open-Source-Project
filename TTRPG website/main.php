@@ -411,7 +411,7 @@ function refreshPage() {
     sessionStorage.clear();
 
     // Redirect to the desired webpage
-    window.location.href = '<http of the login.php in signup&login folder';
+    window.location.href = '<http of the signup&login folder';
   }
 </script>
 
