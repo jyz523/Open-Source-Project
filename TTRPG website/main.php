@@ -16,9 +16,9 @@
         <h2>Character</h2>
         <select name="CharacterName" id="characterSelect">
           <?php
-          $servername = "192.168.64.3";
-          $username = "test";
-          $password = "test12345";
+          $servername = "IP address or localhost";
+          $username = "<input>";
+          $password = "<input>";
           $dbname = "character_type"; // Replace with your actual database name
 
         // Create a connection
@@ -61,9 +61,9 @@
                 <select name="Armor" id="equippedArmor">
                   <?php
             // Connect to the database and retrieve the armor options
-                  $servername = "192.168.64.3";
-                  $username = "test";
-                  $password = "test12345";
+                  $servername = "IP address or localhost";
+                  $username = "<input>";
+                  $password = "<input>";
                   $dbname = "Armor";
 
             // Create a connection
