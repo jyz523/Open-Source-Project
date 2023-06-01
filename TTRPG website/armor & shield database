@@ -1,18 +1,24 @@
--- Create the table
+<!-- Create the database -->
+CREATE DATABASE armor;
+
+<!-- Choose the database -->
+USE armor;
+
+<!-- Create the table -->
 CREATE TABLE armor (
   id INT PRIMARY KEY,
   name VARCHAR(50) NOT NULL,
   type VARCHAR(20) NOT NULL
 );
 
--- Insert data for light armor
+<!--Insert data for light armor -->
 INSERT INTO armor (id, name, type)
 VALUES 
 (1, 'Padded', 'Light Armor'),
 (2, 'Leather', 'Light Armor'),
 (3, 'Studded Leather', 'Light Armor');
 
--- Insert data for medium armor
+<!-- Insert data for medium armor -->
 INSERT INTO armor (id, name, type)
 VALUES 
 (4, 'Hide', 'Medium Armor'),
@@ -21,7 +27,7 @@ VALUES
 (7, 'Breastplate', 'Medium Armor'),
 (8, 'Half Plate', 'Medium Armor');
 
--- Insert data for heavy armor
+<!-- Insert data for heavy armor -->
 INSERT INTO armor (id, name, type)
 VALUES 
 (9, 'Ring Mail', 'Heavy Armor'),
@@ -31,13 +37,13 @@ VALUES
 (13, 'None');
 
 
--- Create the table for shields
+<!--Create the table for shields -->
 CREATE TABLE shield (
   id INT PRIMARY KEY,
   name VARCHAR(50) NOT NULL
 );
 
--- Insert data for shields
+<!-- Insert data for shields -->
 INSERT INTO shield (id, name)
 VALUES 
 (1, 'None'),
