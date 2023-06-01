@@ -44,6 +44,7 @@ sudo htpasswd -c /etc/apache/.htpasswd (username)
 
 <!-- ERROR if dont have '.htpasswd' file -->
 sudo apt-get install apache2-utils
+=> then go back to line 43
 
 <!-- restart apache2 -->
 sudo systemctl restart apache2
