@@ -10,12 +10,12 @@ fixing final.html file into main.php file, fixing the display of the web
 creating get_health_points.php, creating get_health_points_by_level.php  
 adding all the PHP function/JavaScript code in main.php file  
 creating/fixing the final version of main.php file  
-help with Progress Report #1 ppt  
+help with Progress Report #1 ppt, help with Progress Report #2 ppt  
 410855364    
 setup the character_type Database, turn armor and shield into mysql Database  
 setup signup Database(inside signup&login folder)  
 fixing the display of the web, fixing the final version of main.php file.  
-made the Progress Report #1 ppt       
+made the Progress Report #1 ppt, made the Progress Report #2 ppt  
 410850233  
 remove the unneeded code in impl.js, create Apache2 read file login system    
 help with Progress Report #1 ppt    
