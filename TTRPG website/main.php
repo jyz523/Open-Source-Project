@@ -16,10 +16,10 @@
         <h2>Character</h2>
         <select name="CharacterName" id="characterSelect">
           <?php
-          $servername = "<input ur own>";
-          $username = "<input ur own>";
-          $password = "<input ur own>";
-        $dbname = "character_type"; // Replace with your actual database name
+          $servername = "192.168.64.3";
+          $username = "test";
+          $password = "test12345";
+          $dbname = "character_type"; // Replace with your actual database name
 
         // Create a connection
         $conn = new mysqli($servername, $username, $password, $dbname);
@@ -61,9 +61,9 @@
                 <select name="Armor" id="equippedArmor">
                   <?php
             // Connect to the database and retrieve the armor options
-                  $servername = "<input ur own>";
-                  $username = "<input ur own>";
-                  $password = "<input ur own>";
+                  $servername = "192.168.64.3";
+                  $username = "test";
+                  $password = "test12345";
                   $dbname = "Armor";
 
             // Create a connection
@@ -97,9 +97,9 @@
                 <select name="Shield" id="equippedShield" onchange="UpdateAC()">
                   <?php
             // Connect to the database and retrieve the shield options
-                  $servername = "<input ur own>";
-                  $username = "<input ur own>";
-                  $password = "<input ur own>";
+                  $servername = "192.168.64.3";
+                  $username = "test";
+                  $password = "test12345";
                   $dbname = "Armor";
 
             // Create a connection
@@ -160,7 +160,7 @@
     var originalMaxHP = currentMaxHP; // Set the original value of MaxHP
     maxHPInput.value = originalMaxHP;
   }
-          
+  // Add more conditions for other armor types if needed
 }
 
 
@@ -168,10 +168,10 @@ function UpdateAC() {
   var equippedArmor = document.getElementById("equippedArmor").value;
   var equippedShield = document.getElementById("equippedShield").value;
 
-  
-  
-  
-  
+  // Your existing code for updating the Armor Class (AC) based on the equipped armor and shield
+  // ...
+
+  // Assuming you have a function called "UpdateACValue" that updates the AC value on the website
   UpdateACValue(updatedAC);
 }
 
@@ -396,15 +396,27 @@ function refreshPage() {
 
 
 <div class="text-left">
-  <button class="btn btn-success" onclick="SaveData()">Save Data</button>
-  <button class="btn btn-info" onclick="LoadCharacter()">Load Data</button>
-  <br><br>
 <button class="btn btn-primary" onclick="refreshPage()">Refresh Page</button>
 
-</div>
-<br>
 
-<!-- Set left and right side of table -->
+<!-- Logout button -->
+<button class="btn btn-primary" onclick="logout()">Logout</button>
+</div>
+<!-- Rest of the code... -->
+
+<script>
+  // Logout function
+  function logout() {
+    // Clear session data
+    sessionStorage.clear();
+
+    // Redirect to the desired webpage
+    window.location.href = '<http of the login.php in signup&login folder';
+  }
+</script>
+
+
+<!-- Set let and right side of table -->
 <head>
   <style>
     .containe {
