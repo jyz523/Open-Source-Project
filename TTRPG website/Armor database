@@ -1,8 +1,8 @@
 <!-- Create the database -->
-CREATE DATABASE armor;
+CREATE DATABASE Armor;
 
 <!-- Choose the database -->
-USE armor;
+USE Armor;
 
 <!-- Create the table -->
 CREATE TABLE armor (
