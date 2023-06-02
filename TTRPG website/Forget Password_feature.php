@@ -21,13 +21,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             // Display the password in a pop-up box using JavaScript
             echo "<script>alert('Your password is: $password');</script>";
         } else {
-            // User does not exist, redirect to error page
-            header("Location: password_recovery_error.php");
-            exit;
+            // User does not exist, display error message in a pop-up box
+            echo "<script>alert('Username not found! Please enter a valid username.');</script>";
         }
     } else {
         // Invalid input
-        echo "Please enter a valid username!";
+        echo "<script>alert('Please enter a valid username!');</script>";
     }
 }
 ?>
@@ -70,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             <input id="button" type="submit" value="Submit"><br><br>
         </form>
 
-        <a href="http://IP address or localhost/">Go back</a>
+        <a href="http://IP Address or localhost/">Go back</a>
     </div>
 </body>
 </html>
