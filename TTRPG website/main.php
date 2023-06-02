@@ -16,9 +16,9 @@
         <h2>Character</h2>
         <select name="CharacterName" id="characterSelect">
           <?php
-          $servername = "IP address or localhost";
-          $username = "<input>";
-          $password = "<input>";
+          $host = "IP address or localhost";
+          $username = "<mysql username>";
+          $password = "<mysql password>";
           $dbname = "character_type"; // Replace with your actual database name
 
         // Create a connection
@@ -61,9 +61,9 @@
                 <select name="Armor" id="equippedArmor">
                   <?php
             // Connect to the database and retrieve the armor options
-                  $servername = "IP address or localhost";
-                  $username = "<input>";
-                  $password = "<input>";
+                  $host = "IP address or localhost";
+                  $username = "<mysql username>";
+                  $password = "<mysql password>";
                   $dbname = "Armor";
 
             // Create a connection
@@ -97,9 +97,9 @@
                 <select name="Shield" id="equippedShield" onchange="UpdateAC()">
                   <?php
             // Connect to the database and retrieve the shield options
-                  $servername = "192.168.64.3";
-                  $username = "test";
-                  $password = "test12345";
+                  $host = "IP address or localhost";
+                  $username = "<mysql username>";
+                  $password = "<mysql password>";
                   $dbname = "Armor";
 
             // Create a connection
@@ -135,45 +135,47 @@
 
 
       <!-- JavaScript code -->
-      <script>
-        function confirmArmor() {
-          var equippedArmor = document.getElementById("equippedArmor").value;
-          var equippedArmorId = parseInt(equippedArmor);
-          var maxHPInput = document.getElementById("maxHP");
-          var currentMaxHP = parseInt(maxHPInput.value);
+<script>
+var originalMaxHP; // Declare a variable to store the original health value
 
-  // Adjust the health values according to your requirements for different armor types
-          if (equippedArmorId >= 1 && equippedArmorId <= 3) {
-            var lightArmorHealth = 1;
-            var updatedMaxHP = currentMaxHP + lightArmorHealth;
-            maxHPInput.value = updatedMaxHP;
-          } else if (equippedArmorId >= 4 && equippedArmorId <= 8) {
-            var mediumArmorHealth = 5;
-            var updatedMaxHP = currentMaxHP + mediumArmorHealth;
-            maxHPInput.value = updatedMaxHP;
-          } else if (equippedArmorId >= 9 && equippedArmorId <= 12) {
-            var heavyArmorHealth = 10;
-            var updatedMaxHP = currentMaxHP + heavyArmorHealth;
-            maxHPInput.value = updatedMaxHP;
-          } else if (equippedArmorId === 13) {
-    // "None" armor selected, reset to original value
-    var originalMaxHP = currentMaxHP; // Set the original value of MaxHP
-    maxHPInput.value = originalMaxHP;
+function confirmArmor() {
+  var equippedArmor = document.getElementById("equippedArmor").value;
+  var equippedArmorId = parseInt(equippedArmor);
+  var maxHPInput = document.getElementById("maxHP");
+  var currentMaxHP = parseInt(maxHPInput.value);
+
+  if (equippedArmorId >= 1 && equippedArmorId <= 3) {
+    var lightArmorHealth = 1;
+    var updatedMaxHP = currentMaxHP + lightArmorHealth;
+    maxHPInput.value = updatedMaxHP;
+  } else if (equippedArmorId >= 4 && equippedArmorId <= 8) {
+    var mediumArmorHealth = 5;
+    var updatedMaxHP = currentMaxHP + mediumArmorHealth;
+    maxHPInput.value = updatedMaxHP;
+  } else if (equippedArmorId >= 9 && equippedArmorId <= 12) {
+    var heavyArmorHealth = 10;
+    var updatedMaxHP = currentMaxHP + heavyArmorHealth;
+    maxHPInput.value = updatedMaxHP;
+  } else if (equippedArmorId === 13) {
+    // Set the original value of MaxHP only if it hasn't been set before
+    if (originalMaxHP === undefined) {
+      originalMaxHP = currentMaxHP;
+    }
+    maxHPInput.value = originalMaxHP; // Reset the health to the original value
   }
-  // Add more conditions for other armor types if needed
 }
 
-
-function UpdateAC() {
+function updateAC() {
   var equippedArmor = document.getElementById("equippedArmor").value;
   var equippedShield = document.getElementById("equippedShield").value;
 
-  // Your existing code for updating the Armor Class (AC) based on the equipped armor and shield
-  // ...
-
-  // Assuming you have a function called "UpdateACValue" that updates the AC value on the website
-  UpdateACValue(updatedAC);
+  updateACValue(updatedAC);
 }
+
+document.getElementById("equippedArmor").addEventListener("change", confirmArmor);
+document.getElementById("equippedShield").addEventListener("change", updateAC);
+</script>
+
 
 </script>
 
@@ -411,7 +413,7 @@ function refreshPage() {
     sessionStorage.clear();
 
     // Redirect to the desired webpage
-    window.location.href = '<http of the signup&login folder';
+    window.location.href = 'http://IP Address or localhost/';
   }
 </script>
 
