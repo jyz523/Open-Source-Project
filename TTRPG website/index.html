@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up and Log In</title>
+    <style>
+        body {
+            background-image: url("back.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Noto Sans, Noto, sans-serif;
+            border: 1px hidden;
+            margin-left: 0;
+            margin-right: auto;
+            margin-top: 100px;
+            max-width: 425px;
+            padding: 0 20px;
+        }
+
+        h1 {
+            color: lime;
+            font-style: italic;
+        }
+        h2 {
+            background-color: transparent;
+            color: darkorange;
+            text-align: left;
+            font-style: italic;
+            margin-left: -20px;
+            margin-right: -20px;
+            padding: 10px;
+        }
+
+        div {
+            background-color: transparent;
+            margin-left: 0px;
+            margin-left: -10px;
+            margin-right: -10px;
+            padding: 20px;
+        }
+
+        form {
+            background-color: transparent;
+            text-align: left;
+            margin-left: -20px;
+            margin-right: -20px;
+            padding: 20px;
+        }
+
+        b {
+            background-color: transparent;
+            text-align: left;
+        }
+
+        form label {
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to TTRPG!</h1>
+    <div>
+        <h2>Sign Up</h2>
+        <form method="POST" action="signup.php">
+            <label for="username">Username:</label><br>
+            <input type="text" name="username" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" required><br><br>
+            <b>
+                <input type="submit" value="Sign Up">
+            </b>
+        </form>
+
+        <h2>Log In</h2>
+        <form method="POST" action="login.php">
+            <label for="loginUsername">Username/Email:</label><br>
+            <input type="text" name="loginUsername" required><br><br>
+
+            <label for="loginPassword">Password:</label><br>
+            <input type="password" name="loginPassword" required><br><br>
+            <b>
+                <input type="submit" value="Log In">
+            </b>
+        </form>
+        <br>
+        <form action="http://IP address or localhost/Forget%20Password_feature.php">
+            <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Forgot Password</button>
+        </form>
+    </div>
+</body>
+</html>
