@@ -1,7 +1,7 @@
 <?php
-$servername = "<input your own>";
-$username = "<input your own>";
-$password = "<input your own>";
+$host = "IP address or localhost";
+$username = "<mysql username>";
+$password = "<mysql password>";
 $dbname = "character_type"; // Replace with your actual database name
 
 // Get the character ID from the request
