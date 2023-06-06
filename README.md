@@ -29,7 +29,7 @@ create user's manual.md
 create index.css, index.html, login.php, signup.php 
 410855398
 create Forget Password_feature.php, connection.php, function.php
-410850258 
-Help a bit of login.php
+410850258  
+Help a bit of login.php  
 
 **DATE of UPDATING README 2023 June 6th**
