@@ -341,7 +341,6 @@ Remember to review the documentation or instructions provided with the open sour
 9.Set up **signup database** (being used in line 6-8 of signup.php)  
   a.Follow  the code that is in signup  
 
-
 10.Click **signup.php**  
    a.Copy and Paste the code  
    b.There is 1  part you need to change by yourself   
