@@ -392,3 +392,6 @@ Remember to review the documentation or instructions provided with the open sour
    $host = "IP address or localhost";  
    $username = "mysql username";  
    $password = "mysql password";  
+
+
+**BACKUP LINK** https://docs.google.com/document/d/1E6d-4Bkm8ts7dHJJVwxUED_YEg6p88UbGH4Yrlma0Z4/edit?usp=sharing
