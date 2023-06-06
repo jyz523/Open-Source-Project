@@ -1,7 +1,7 @@
 **FROM ZERO TO HERO
 INSTALLATION GUIDE** 
 
-** VMachine Installation**  
+**VMachine Installation**  
 
 To install **Hyper-V**, the virtualization platform provided by Microsoft, you can follow these steps:    
 
