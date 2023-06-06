@@ -24,7 +24,7 @@ help with Progress Report #1 ppt
 410855497   
 made the foundation code for the project(final.html, impl.js, impl.css)   
 Setup armor and shield Database in google form  
-create user's manual.md
+create user's manual.md  
 410850175  
 create index.css, index.html, login.php, signup.php   
 410855398  
