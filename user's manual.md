@@ -394,4 +394,4 @@ Remember to review the documentation or instructions provided with the open sour
    $password = "mysql password";  
 
 
-**BACKUP LINK** https://docs.google.com/document/d/1E6d-4Bkm8ts7dHJJVwxUED_YEg6p88UbGH4Yrlma0Z4/edit?usp=sharing
+**BACKUP user's manual.md LINK** https://docs.google.com/document/d/1E6d-4Bkm8ts7dHJJVwxUED_YEg6p88UbGH4Yrlma0Z4/edit?usp=sharing
