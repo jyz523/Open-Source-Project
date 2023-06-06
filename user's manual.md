@@ -365,7 +365,7 @@ Remember to review the documentation or instructions provided with the open sour
    //you need to change the IP address or localhost into the one you are using redirect back to index.html//  
 
 12.Click **index.html**  
-   a.At line 91  <form action="http://IP address or localhost/Forget%20Password_feature.php">  
+   a.At line 91 //form action="http://IP address or localhost/Forget%20Password_feature.php"//  
    //you need to change the IP address or localhost into the one you are using redirect back to Forget_Password_feature.php//  
 
 13.Download **back.jpg**  
@@ -382,7 +382,7 @@ Remember to review the documentation or instructions provided with the open sour
 
 15.Click **Forget Password_feature.php**  
    a.Copy and Paste the code  
-   b.At line 72 //<a href="http://IP Address or localhost/">Go back</a>//    
+   b.At line 72 //a href="http://IP Address or localhost/">Go back</a//    
    //you need to change the IP address or localhost into the one you are using redirect back to index.html//  
 
 16.Click **function.php**  
