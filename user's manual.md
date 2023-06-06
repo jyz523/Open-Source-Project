@@ -307,8 +307,8 @@ Remember to review the documentation or instructions provided with the open sour
   b.There is 3 part you need to change by yourself   
     (line  19-21 and line 64-66 and line 100-102)  
     $host = "IP address or localhost";  
-    $username = "<mysql username>";  
-    $password = "<mysql password>";  
+    $username = "mysql username";  
+    $password = "mysql password";  
 
 3.Set up **character_type database** ( being used in line 19-21 of main.php)  
   a.Follow  the code that is in signup  
@@ -321,16 +321,16 @@ Remember to review the documentation or instructions provided with the open sour
   b.There is 1 part you need to change by yourself   
     (line  2-4)  
     $host = "IP address or localhost";  
-    $username = "<mysql username>";  
-    $password = "<mysql password>";  
+    $username = "mysql username";  
+    $password = "mysql password";  
 
 6.Click **get_health_points_by_level.php**  
   a.Copy and Paste the code  
   b.There is 1 part you need to change by yourself   
     (line  2-4)  
     $host = "IP address or localhost";  
-    $username = "<mysql username>";  
-    $password = "<mysql password>";  
+    $username = "mysql username";  
+    $password = "mysql password";  
 
 7.Click **impl.css**  
   a.Copy and Paste the code  
@@ -346,8 +346,8 @@ Remember to review the documentation or instructions provided with the open sour
    b.There is 1  part you need to change by yourself   
    (line  6-8)  
    $host = "IP address or localhost";  
-   $username = "<mysql username>";  
-   $password = "<mysql password>";  
+   $username = "mysql username";  
+   $password = "mysql password";  
    c.At line 32 echo '<script>window.location.href = "http:// IP  address or localhost/";</script>'; redirect back to index.html  
 
 11.Click **login.php**  
@@ -355,8 +355,8 @@ Remember to review the documentation or instructions provided with the open sour
    b.There is 1  part you need to change by yourself   
    (line  3-5)  
    $host = "IP address or localhost";  
-   $username = "<mysql username>";  
-   $password = "<mysql password>";  
+   $username = "mysql username";  
+   $password = "mysql password";  
    c.At line 33  echo "<script>alert('Login successful!'); window.location.href = 'http:// IP address or localhost/main.php';</script>";  
    //you need to change the IP address or localhost into the one you are using redirect back to main.php//  
    At line 37 echo "<script>alert('Invalid username or password.'); window.location.href = 'http:// IP address or localhost /';</script>";  
@@ -377,12 +377,12 @@ Remember to review the documentation or instructions provided with the open sour
    b.There is 1  part you need to change by yourself   
    (line  4-6)  
    $host = "IP address or localhost";  
-   $username = "<mysql username>";  
-   $password = "<mysql password>";  
+   $username = "mysql username";  
+   $password = "mysql password";  
 
 15.Click **Forget Password_feature.php**  
    a.Copy and Paste the code  
-   b.At line 72 <a href="http://IP Address or localhost/">Go back</a>    
+   b.At line 72 //<a href="http://IP Address or localhost/">Go back</a>//    
    //you need to change the IP address or localhost into the one you are using redirect back to index.html//  
 
 16.Click **function.php**  
@@ -390,5 +390,5 @@ Remember to review the documentation or instructions provided with the open sour
    b.There is 1  part you need to change by yourself   
    (line  38-40)  
    $host = "IP address or localhost";  
-   $username = "<mysql username>";  
-   $password = "<mysql password>";  
+   $username = "mysql username";  
+   $password = "mysql password";  
