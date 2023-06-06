@@ -297,8 +297,6 @@ Remember to review the documentation or instructions provided with the open sour
 
 
 
-
-
 **Setup for Webpage Installation**  
 1.Go to https://github.com/jyz523/Open-Source-Project/tree/main click in TTRPG website folder.  
 
