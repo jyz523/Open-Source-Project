@@ -17,7 +17,7 @@ setup the character_type Database, turn armor and shield into mysql Database
 setup signup Database 
 fixing the display of the web, fixing the final version of main.php file    
 made the Progress Report #1 ppt, made the Progress Report #2 ppt  
-help Forget Password_feature.php, connection.php, function.php
+help Forget Password_feature.php, connection.php, function.php  
 410850233  
 remove the unneeded code in impl.js, create Apache2 read file login system    
 help with Progress Report #1 ppt    
