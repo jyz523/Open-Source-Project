@@ -4,8 +4,10 @@
   
 3.1 If you don't have an account:  
 3.1.1 Go to the Sign up section to create a new account.  
+
 3.2 If you already have an account:  
 3.2.1 Go to the Login section and log in to your account.  
+
 3.3 If you have an account but forgot your password:  
 3.3.1 Click on the green "Forgot Password" button to recover your password.  
 
