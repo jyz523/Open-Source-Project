@@ -117,8 +117,6 @@
                     while ($row = $resultShield->fetch_assoc()) {
                       echo '<option value="' . $row["id"] . '">' . $row["name"] . '</option>';
                     }
-                  } else {
-                    echo '<option value="none">None</option>';
                   }
 
             // Close the database connection
