@@ -90,7 +90,6 @@
                   $conn->close();
                   ?>
                 </select>
-                <button onclick="confirmArmor()">Confirm</button>
               </div>
               <div style="display: flex; align-items: center;">
                 <span style="margin-right: 10px;">Equipped Shield: </span>
