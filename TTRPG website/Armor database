@@ -48,5 +48,4 @@ CREATE TABLE shield (
 <!-- Insert data for shields -->
 INSERT INTO shield (id, name)
 VALUES 
-(1, 'None'),
-(2, 'Shield');
+(1, 'Shield');
