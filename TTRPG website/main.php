@@ -155,7 +155,7 @@ function confirmArmor() {
     var heavyArmorHealth = 10;
     var updatedMaxHP = currentMaxHP + heavyArmorHealth;
     maxHPInput.value = updatedMaxHP;
-  } else if (equippedArmorId === 13) {
+  } else if (equippedArmorId === 0) {
     // Set the original value of MaxHP only if it hasn't been set before
     if (originalMaxHP === undefined) {
       originalMaxHP = currentMaxHP;
