@@ -15,7 +15,7 @@ CREATE TABLE armor (
 <!--Insert data for light armor -->
 INSERT INTO armor (id, name, type, health)
 VALUES 
-(0, 'None', 'NONE', 'NULL' );
+(0, 'None', 'NONE', 'NULL' ),
 (1, 'Padded', 'Light Armor', '1'),
 (2, 'Leather', 'Light Armor','1'),
 (3, 'Studded Leather', 'Light Armor','1');
