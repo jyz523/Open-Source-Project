@@ -1,4 +1,4 @@
-**Open Source Project**  
+**Open Source Project - TKU**  
 
 **General overview:**  
 The goal of this project is to create a functioning web page for managing and displaying characters for Tabletop Role-Playing Games (TTRPGs). 
